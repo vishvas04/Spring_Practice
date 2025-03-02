@@ -12,6 +12,6 @@ public class Main {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
         System.out.println("Hello and welcome!");
         Dev obj=(Dev) context.getBean("dev");
-        obj.getAge();
+        System.out.println(obj.getAge());
     }
 }
