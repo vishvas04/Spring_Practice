@@ -6,8 +6,10 @@
     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
     <bean id="dev" class="org.example.Dev">
-        <property name="age" value="18" />
+        <property name="comp" ref="lap1"/>
     </bean>
-<!--    <bean id="dev" class="org.example.Dev">-->
-<!--    </bean>-->
+    <bean id="lap1" class="org.example.Laptop">
+    </bean>
+    <bean id="desk1" class="org.example.Desktop">
+    </bean>
 </beans>
