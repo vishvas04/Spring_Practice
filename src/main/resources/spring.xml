@@ -5,8 +5,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="dev" class="org.example.Dev">
-        <property name="comp" ref="lap1"/>
+    <bean id="dev" class="org.example.Dev" autowire="byType">
+<!--        <property name="comp" ref="lap1"/>-->
     </bean>
     <bean id="lap1" class="org.example.Laptop">
     </bean>
