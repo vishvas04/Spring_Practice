@@ -10,6 +10,6 @@
     </bean>
     <bean id="lap1" class="org.example.Laptop">
     </bean>
-    <bean id="desk1" class="org.example.Desktop">
+    <bean id="desk2" class="org.example.Desktop">
     </bean>
 </beans>
